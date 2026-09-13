@@ -1,10 +1,10 @@
-/target
+cargo-flamegraph*
+.claude/
 data/
+flamegraph.svg
 .idea/
-.venv/
+*.log
+/target
 test_data/*
 !test_data/.gitkeep
-flamegraph.svg
-cargo-flamegraph*
-*.log
-.claude/
+.venv/
